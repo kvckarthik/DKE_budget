@@ -32,15 +32,12 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
-  --color-gold: var(--gold);
-  --color-navy: var(--navy);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) * 1.4);
 }
 
-/* DKE dark theme always-on */
 :root {
   --background: oklch(0.1 0.02 240);
   --foreground: oklch(0.92 0 0);
@@ -69,8 +66,6 @@
   --sidebar-accent-foreground: oklch(0.92 0 0);
   --sidebar-border: oklch(1 0 0 / 8%);
   --sidebar-ring: oklch(0.75 0.12 75);
-  --gold: #C9A84C;
-  --navy: #0D1B3E;
 }
 
 @layer base {
